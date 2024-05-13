@@ -47,6 +47,7 @@ footer {
 }
 .desc p {
     display: inline;
+    margin: 5%;
 }
 .desc img {
     float: right;
