@@ -35,10 +35,12 @@ nav ul li a {
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
-    display: inline;
 }
 .container img {
     float: left;
+}
+.container p {
+    display: inline;
 }
 footer {
     background-color: #333;
