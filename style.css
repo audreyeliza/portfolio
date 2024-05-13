@@ -45,10 +45,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.desc img {
-    width: 10%;
-    height: auto;
+.desc p {
+    display: inline;
 }
-.desc {
-    style="display:inline-block;
+.desc img {
+    float: right;
 }
