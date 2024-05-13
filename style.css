@@ -43,6 +43,7 @@ nav ul li a {
 .container p {
     display: inline;
     margin-left: 10px;
+    padding-left: 20px;
 }
 footer {
     background-color: #333;
