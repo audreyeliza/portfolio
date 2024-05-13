@@ -37,6 +37,9 @@ nav ul li a {
     padding: 0 20px;
     display: inline;
 }
+.container {
+    float: left;
+}
 footer {
     background-color: #333;
     color: #fff;
