@@ -40,16 +40,6 @@ nav ul li a {
     border-left: 5px solid #333; /* Adjust border size and color as needed */
     padding-left: 10px; /* Adjust padding as needed */
 }
-.container img {
-    width: auto; /* Adjust image size as needed */
-    max-height: 50%;
-    margin-right: 10px;
-}
-.container p {
-    display: inline;
-    margin-left: 10px;
-    padding-left: 20px;
-}
 footer {
     background-color: #333;
     color: #fff;
