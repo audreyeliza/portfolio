@@ -45,7 +45,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.img {
-    width: 20px;
+.desc img {
+    width: 20%;
     height: auto;
 }
