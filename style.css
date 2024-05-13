@@ -40,6 +40,9 @@ nav ul li a {
     border-left: 5px solid #333; /* Adjust border size and color as needed */
     padding-left: 10px; /* Adjust padding as needed */
 }
+.pic {
+    display: inline-block;
+}
 footer {
     background-color: #333;
     color: #fff;
