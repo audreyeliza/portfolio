@@ -45,10 +45,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.desc p {
-    display: inline;
-    margin: 5%;
-}
-.desc img {
-    float: right;
-}
