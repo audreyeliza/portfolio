@@ -41,8 +41,8 @@ nav ul li a {
     padding-left: 10px; /* Adjust padding as needed */
 }
 .container img {
-    max-width: 100%; /* Adjust image size as needed */
-    height: auto;
+    width: auto; /* Adjust image size as needed */
+    max-height: 100%;
     margin-right: 10px;
 }
 .container p {
