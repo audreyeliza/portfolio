@@ -5,48 +5,88 @@ body {
     padding: 0;
     background-color: white;
 }
-p {
-    color: black;
+
+.foot {
+    text-align: left;
+
 }
-.text {
-    padding: 10px;
-}
+
 footer {
     background-color: gray;
     color: white;
-    text-align: center;
     padding: 20px;
-    position: fixed;
+    text-align: center;
+    margin: auto;
     bottom: 0;
     width: 100%;
-    display: inline;
-}
-header {
-    background-color: gray;
-    color: white;
-    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: absolute;
+    justify-content: center;
 }
-header h1 {
-    margin: 0;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
-nav ul {
+
+footer nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-nav ul li {
-    display: inline;
+
+footer nav ul li {
+    display: inline-block;
     margin-right: 20px;
+    text-align: center;
+
 }
-nav ul li a {
-    color: white;
+
+footer nav ul li img {
+    width: 50px;
+    height: auto;
+}
+
+footer nav ul li a {
+    color: none;
     text-decoration: none;
 }
+
+header {
+    background-color: gray;
+    color: white;
+    position: fixed;
+    padding: 0.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Cabin Sketch", sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header ul {
+    margin: 2vw;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    font-family: "Special Elite", system-ui;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+header a:hover {
+    color: red;
+}
+
+
+
 
