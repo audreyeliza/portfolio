@@ -23,25 +23,32 @@
     </header>
 
     <main>
-        <section id="about" class="hero">
-            <h2>Welcome to My Creative World</h2>
-            <p>High school senior | Aspiring computer scientist | Crochet enthusiast</p>
+        <section class="page-header">
+            <h1>My Interests</h1>
+            <p>Where technology meets creativity</p>
         </section>
 
-        <section id="projects" class="projects">
-            <h2>My Projects</h2>
-            <div class="project-grid">
-                <div class="project-box">
-                    <h3>Portfolio Website</h3>
-                    <p>A showcase of my work and skills</p>
+        <section id="interests" class="interests">
+            <div class="interests-nav">
+                <button class="interest-toggle active" data-interest="photography">Photography</button>
+                <button class="interest-toggle" data-interest="crochet">Crochet</button>
+            </div>
+            <div class="interest-content" id="photography-content">
+                <p>I love capturing the beauty of nature, especially flowers and insects. Here are some of my favorite shots:</p>
+                <div class="photo-gallery">
+                    <img src="flower1.jpg" alt="Colorful flower in bloom">
+                    <img src="insect1.jpg" alt="Close-up of a butterfly">
+                    <img src="landscape1.jpg" alt="Scenic nature landscape">
+                    <!-- Add more images as needed -->
                 </div>
-                <div class="project-box">
-                    <h3>Typing Test Website</h3>
-                    <p>Test and improve your typing speed</p>
-                </div>
-                <div class="project-box">
-                    <h3>Financial Assistant Chatbot</h3>
-                    <p>AI-powered financial advice</p>
+            </div>
+            <div class="interest-content hidden" id="crochet-content">
+                <p>Crocheting is my way of bringing cute and cuddly creations to life. I specialize in amigurumi plushes:</p>
+                <div class="crochet-gallery">
+                    <img src="amigurumi1.jpg" alt="Cute amigurumi bear">
+                    <img src="amigurumi2.jpg" alt="Crocheted flower bouquet">
+                    <img src="amigurumi3.jpg" alt="Amigurumi sea creatures set">
+                    <!-- Add more images as needed -->
                 </div>
             </div>
         </section>
@@ -66,5 +73,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
