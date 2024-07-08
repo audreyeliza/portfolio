@@ -23,25 +23,46 @@
     </header>
 
     <main>
-        <section id="about" class="hero">
-            <h2>Welcome to My Creative World</h2>
-            <p>High school senior | Aspiring computer scientist | Crochet enthusiast</p>
+        <section class="page-header">
+            <h1>My Projects</h1>
+            <p>Exploring the world of code and beyond</p>
         </section>
 
         <section id="projects" class="projects">
-            <h2>My Projects</h2>
-            <div class="project-grid">
-                <div class="project-box">
-                    <h3>Portfolio Website</h3>
-                    <p>A showcase of my work and skills</p>
+            <div class="project-nav">
+                <button class="project-toggle active" data-project="programming">Programming</button>
+                <button class="project-toggle" data-project="academic">Academic</button>
+            </div>
+            <div class="project-content" id="programming-content">
+                <div class="project-grid">
+                    <div class="project-box">
+                        <h3>Portfolio Website</h3>
+                        <p>A showcase of my work and skills</p>
+                    </div>
+                    <div class="project-box">
+                        <h3>Typing Test Website</h3>
+                        <p>Test and improve your typing speed</p>
+                    </div>
+                    <div class="project-box">
+                        <h3>Financial Assistant Chatbot</h3>
+                        <p>AI-powered financial advice</p>
+                    </div>
                 </div>
-                <div class="project-box">
-                    <h3>Typing Test Website</h3>
-                    <p>Test and improve your typing speed</p>
-                </div>
-                <div class="project-box">
-                    <h3>Financial Assistant Chatbot</h3>
-                    <p>AI-powered financial advice</p>
+            </div>
+            <div class="project-content hidden" id="academic-content">
+                <div class="project-grid">
+                    <div class="project-box">
+                        <h3>Research Paper</h3>
+                        <p>Analysis of climate change impacts</p>
+                    </div>
+                    <div class="project-box">
+                        <h3>Science Fair Project</h3>
+                        <p>Exploring renewable energy sources</p>
+                    </div>
+                    <div class="project-box">
+                        <h3>Math Modeling</h3>
+                        <p>Predictive model for population growth</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -66,5 +87,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
