@@ -112,6 +112,8 @@ main {
     padding: 25px;
     border-radius: 8px;
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-box:hover {
@@ -124,6 +126,22 @@ main {
     font-size: 1.3rem;
     margin-top: 0;
     margin-bottom: 10px;
+}
+
+/* Video container styles */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Navigation styles for projects and interests */
