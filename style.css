@@ -183,13 +183,14 @@ main {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  width: 300px; /* Adjust as needed */
+  width: 300px;
+  /* Adjust as needed */
 }
 
 .about-photo {
   max-width: 100%;
   border-radius: 8px;
-  margin-bottom: 1rem; /* Space between photo and skills */
+  margin-bottom: 1rem;
 }
 
 .about-text {
@@ -204,6 +205,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+
 }
 
 .skills-section h3 {
