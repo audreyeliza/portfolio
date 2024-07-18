@@ -159,7 +159,6 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
   object-fit: cover;
 }
 
@@ -286,17 +285,19 @@ main {
 .photo-gallery,
 .crochet-gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
   max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .photo-gallery img,
 .crochet-gallery img {
   width: 100%;
-  height: 300px;
+  height: auto;
   object-fit: cover;
   transition: transform 0.3s ease;
   border-radius: 8px;
@@ -471,14 +472,15 @@ footer {
 
   .photo-gallery,
   .crochet-gallery {
-    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
 
   .photo-gallery img,
   .crochet-gallery img {
-    height: 200px;
+    height: auto;
   }
+
+  @media (min-width: 1400px) {}
 
   header {
     flex-direction: column;
@@ -537,7 +539,8 @@ footer {
     margin-bottom: 1rem;
   }
 
-  .hero p {
+  .hero p,
+  .page-header p {
     white-space: normal;
     max-width: 100%;
     padding: 0 15px;
@@ -567,11 +570,40 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .hero p {
+  .hero p,
+  .page-header p {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 100%;
     font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 600px) {
+
+  .photo-gallery,
+  .crochet-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .photo-gallery img,
+  .crochet-gallery img {
+    height: 250px;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .photo-gallery,
+  .crochet-gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .photo-gallery img,
+  .crochet-gallery img {
+    height: 300px;
   }
 }
