@@ -18,14 +18,8 @@ This repository contains the source code for my personal portfolio website. The 
 Version 1.0 - Initial release with basic features implemented.
 
 ## TODO
-- [ ] Improve image modals
-- [ ] Add description to image modals
-- [ ] Apply stylistic changes to crochet section once completed with photography section
-- [ ] Add descriptions for page headers
-- [ ] Add descriptions for academic projects
-- [ ] Add pictures for programming projects
-- [ ] Add descriptions for programming projects
 - [ ] Implement dark mode
+- [ ] Take recommendations
 
 ## Deployment
 Currently deployed on Netlify at [audreybolyard.com](https://audreybolyard.com)
