@@ -14,12 +14,10 @@ This repository contains the source code for my personal portfolio website. The 
 - Interests section
 - About me
 
-## Current Status
-Version 1.0 - Initial release with basic features implemented.
-
 ## TODO
 - [ ] Implement dark mode
 - [ ] Take recommendations
+- [ ] Fix gallery image alignment
 
 ## Deployment
 Currently deployed on Netlify at [audreybolyard.com](https://audreybolyard.com)
