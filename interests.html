@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audrey Bolyard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Special+Elite&display=swap"
@@ -20,7 +20,7 @@
             <ul>
                 <li><a href="projects.html">projects</a></li>
                 <li><a href="interests.html"><b>interests</b></a></li>
-                <li><a href="AudreyBolyardResume.pdf" target="_blank">resume</a></li>
+                <li><a href="docs/AudreyBolyardResume.pdf" target="_blank">resume</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +28,7 @@
     <main>
         <section class="page-header">
             <h1>interests</h1>
-            <p>~tbd~</p>
+            <p>amateur photographer | crocheting enthusiast | creative explorer</p>
         </section>
 
         <section id="interests" class="interests">
@@ -37,47 +37,86 @@
                 <button class="interest-toggle" data-interest="crochet">crochet</button>
             </div>
             <div class="interest-content" id="photography-content">
-                <p>~tbd~</p>
+                <p>Exploring the world through the lens, capturing moments of beauty and wonder. My photography includes
+                    nature shots, especially close-ups of flowers and insects, showcasing the intricate details of the
+                    natural world.</p>
                 <div class="photo-gallery">
                     <div class="image-container">
-                        <img src="img/admiral.jpeg" alt="Admiral butterfly" class="gallery-img">
+                        <img src="img/admiral.jpeg"
+                            alt="red admiral butterfly and ladybug resting on a peach tree branch" class="gallery-img">
                     </div>
                     <div class="image-container">
-                        <img src="img/bluebonnet.jpeg" alt="Bluebonnet flower" class="gallery-img">
+                        <img src="img/bluebonnet.jpeg"
+                            alt="close-up of a bluebonnet flower with unique lighter color variation"
+                            class="gallery-img">
                     </div>
                     <div class="image-container">
-                        <img src="img/bee.jpeg" alt="Bee on a flower" class="gallery-img">
+                        <img src="img/bee.jpeg"
+                            alt="carpenter bee covered in yellow pollen feeding on a vibrant blanket flower"
+                            class="gallery-img">
                     </div>
                     <div class="image-container">
-                        <img src="img/blanket.jpeg" alt="Blanket flower" class="gallery-img">
+                        <img src="img/blanket.jpeg"
+                            alt="close-up of a blanket flower with striking asymmetrical petal growth"
+                            class="gallery-img">
                     </div>
                     <div class="image-container">
-                        <img src="img/poppy.jpeg" alt="Poppy flower" class="gallery-img">
+                        <img src="img/poppy.jpeg" alt="delicate white corn poppy flower blooming amidst thorny brambles"
+                            class="gallery-img">
                     </div>
                     <div class="image-container">
-                        <img src="img/sulphur.jpeg" alt="Sulphur butterfly" class="gallery-img">
-                    </div>
-                </div>
-                <div id="imageModal" class="modal">
-                    <div class="modal-container">
-                        <span class="close">&times;</span>
-                        <img class="modal-content" id="modalImg">
+                        <img src="img/sulphur.jpeg" alt="dainty sulphur butterfly perched on a yellow dandelion flower"
+                            class="gallery-img">
                     </div>
                 </div>
             </div>
             <div class="interest-content hidden" id="crochet-content">
-                <p>~tbd~</p>
+                <p>Creating unique crochet pieces, with a focus on amigurumi plushes. My projects range from whimsical
+                    animal figures to practical items like bags, each crafted with care and creativity using both
+                    freehand techniques and patterns.</p>
                 <div class="crochet-gallery">
-                    <img src="img/mole.jpeg">
-                    <img src="img/dinos.jpeg">
-                    <img src="img/bags.jpeg">
-                    <img src="img/strawberry.jpeg">
-                    <img src="img/cat.jpeg">
-                    <img src="img/whale.jpeg">
+                    <div class="image-container">
+                        <img src="img/mole.jpeg"
+                            alt="crocheted star-nosed mole plush with a textured dirt blanket for a chemistry project"
+                            class="gallery-img">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/dinos.jpeg"
+                            alt="set of crocheted matching big and baby dinosaurs in pastel colors for a friend's birthday"
+                            class="gallery-img">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/bags.jpeg"
+                            alt="handmade crocheted blueberry and peach-shaped bags to raise funds for my club"
+                            class="gallery-img">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/strawberry.jpeg"
+                            alt="oversized crocheted strawberry pillow with textured seeds and leafy top"
+                            class="gallery-img">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/cat.jpeg"
+                            alt="crocheted interpretation of a friend's signature doodle: a cat wearing a golden crown"
+                            class="gallery-img">
+                    </div>
+                    <div class="image-container">
+                        <img src="img/whale.jpeg"
+                            alt="large pink crocheted humpback whale plush designed as a baby shower gift for a girl"
+                            class="gallery-img">
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <div id="imageModal" class="modal">
+        <div class="modal-container">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg">
+            <div class="modal-text" id="modalText"></div>
+        </div>
+    </div>
 
     <footer id="contact">
         <div class="footer-content">
@@ -99,7 +138,7 @@
             </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
