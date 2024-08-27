@@ -21,7 +21,8 @@ This repository contains the source code for my personal portfolio website. The 
 - [ ] Shorten all descriptions
 - [ ] Make videos larger
 - [ ] Visually establish an aesthetic
-- [ ] Overall statement for every section
+- [ ] Overall statement and summary for every page
+- [ ] Section anchors
 
 ## Deployment
 Currently deployed on Netlify at [audreybolyard.com](https://audreybolyard.com)
