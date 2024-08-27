@@ -15,18 +15,16 @@ This repository contains the source code for my personal portfolio website. The 
 - About me
 
 ## TODO
-- [ ] Implement dark mode
-- [ ] Change sprouts.ai cover image
-- [ ] Slideshow feature on image gallery
-- [ ] Modify height/width of gallery
+- [ ] Update Sprouts.ai cover image
+- [ ] Slideshow feature on image galleries
+- [ ] Modify height/width of gallery images
+- [ ] Shorten all descriptions
+- [ ] Make videos larger
+- [ ] Visually establish an aesthetic
+- [ ] Overall statement for every section
 
 ## Deployment
 Currently deployed on Netlify at [audreybolyard.com](https://audreybolyard.com)
-
-## Notes to Self
-- Add to project and interest sections regularly
-- Update resume when changed
-- Check for broken links
 
 ## Contact
 Audrey Bolyard - [bolyard.audrey@gmail.com](mailto:bolyard.audrey@gmail.com)
